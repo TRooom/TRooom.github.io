@@ -1,0 +1,53 @@
+.page-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px;
+    grid-gap: 10px;
+    margin-left: 25%;
+}
+
+.company-name {
+    grid-column: 1;
+    grid-row: 1;
+    font-size: 40px;
+}
+
+.course-name {
+    grid-column: 1;
+    grid-row: 2;
+    font-size: 30px;
+}
+
+.course-ad {
+    grid-column: 1;   
+    grid-row: 3; 
+    font-size: 25px;
+}
+
+.course-descr {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.course-info {
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.course-meeting {
+    grid-column: 1;
+    grid-row: 5;
+}
+
+.course-image {
+    margin-left: 25%;
+    grid-row: 6;
+}
+
+.letter {
+    color: red;
+}
+
+.topic-list {
+    padding-left: 5%;
+}
